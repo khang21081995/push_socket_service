@@ -1,0 +1,11 @@
+{
+    "apps": [{
+        "name": "push_socket_services",
+        "script": "./server/www",
+        "watch": false,
+        "env": {
+            "NODE_ENV": "production",
+            "PORT": "8009"
+        }
+    }]
+}
